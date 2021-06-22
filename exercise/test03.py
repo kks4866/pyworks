@@ -41,13 +41,30 @@ for i in range(1,6):
 
 #4번 문제
 
-for i in range(1,101):
+for i in range(1,10):
     print(i)
 
 #5번 문제
 
 A=[70,60,55,75,95,90,80,80,85,100]
-tatal = 0
-for score
+total = 0
+for score in A:
+    total += score
+    
+average = total / len(A)
+print(average)
+
+#6번 문제
+numbers = [1,2,3,4,5]
+result=[]
+for n in numbers:
+    if n%2==1:
+        result.append(n*2)
+print(result)
+
+result2=[]
+result2=[n*2 for n in numbers if n%2==1]
+print(result)
+
 
     

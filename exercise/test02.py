@@ -64,6 +64,45 @@ s = s.split(':')
 print(s)
 #8번 문제
 
+a = (1,2,3)
+a = a +(4,)
+print(a)
+
+#9번 문제
+a= dict()
+print(a)
+a['name']='python'
+print(a)
+a[('a')]='python'
+#print(a)
+#a[[1]]='python'
+print(a)
+a[250]='python'
+print(a)
+
+#10번 문제
+
+a={'A':90,'B':80,'C':70}
+result=a.pop('B') #추출
+print(a)
+print(result)
+
+#11번 문제
+a=[1,1,1,2,2,3,3,3,4,4,5]
+aSet= set(a)
+b= list(aSet)
+print(b)
+
+#12번 문제
+a=b=[1,2,3]
+a[1]=4
+print(b)
+
+
+
+
+
+
 
 
 
