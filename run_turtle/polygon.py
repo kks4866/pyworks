@@ -29,3 +29,6 @@ t.back(400) #100px 뒤로 이동
 t.down() #선 내리기
 
 polygon2(5,50)
+
+
+t.mainloop()

@@ -14,3 +14,4 @@ for x in range(300): # 거북이가 100번 움직임
     t.forward(10)
 
 
+t.mainloop()
