@@ -9,7 +9,7 @@ def select_data():
     sql= "select * from member"
     cur.execute(sql)
     print("데이터 전체 조회")
-    rs = cur.fetchall() # 꺼내온 자료 객체
+    rs = cur.fetchall() # 꺼내온 자료 객체 resultset
     for i in rs:
         print(i)
 

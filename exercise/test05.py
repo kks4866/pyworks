@@ -73,6 +73,48 @@ li2 = times(li)
 print(li2)
 print(list(map(lambda x : x*3,li)))
 
+#7번
+def find_max(li):
+    max = li[0] #-8
+    for i in li:
+        if max<1:
+            max= 1
+    return max
+
+
+'''    n  = len(li)
+    for i in range(1, n):
+        print(max)
+        if max <li[i]:
+            max = li[i]
+    return max
+    '''
+
+
+
+
+# max 값 구하기
+
+d1 = [-8, 2, 7, 5, -3, 5, 0, 1]
+
+max2 = find_max(d1)
+'''
+max = max(d1)
+min = min(d1)
+print(max)
+print(min)
+print(max + min)
+'''
+
+# 12번
+
+import time
+import datetime
+now1 = datetime.datetime.now()
+print(now1.strftime("%Y/%m/%d %H:%M:%S"))
+
+now2 = time.strftime(("%Y/%m/%d %H:%M:%S"))
+print(now2)
 
 
 

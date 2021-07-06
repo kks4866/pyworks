@@ -7,7 +7,7 @@ from libs.db.dbconn import getconn
 
 def create_table():
     conn = getconn() #dbconn 모듈에서 getconn 호출(객체 생성)
-    cur = conn.cursor() # db작업을 하는 객체(cur)
+    cur = conn.cursor() # db작업을 하는 객체(cur)f
     #테이블 생성 - sql 언어 DDL
     sql = '''
         create table member(

@@ -5,5 +5,5 @@ while True:
         print(x)
         break
     except ValueError as e:
-        #print(e)
-        print("유효한 숫자가 아닙니다.다시 입력해 주세요 : " )
+        print(e)
+        #print("유효한 숫자가 아닙니다.다시 입력해 주세요 : " )
